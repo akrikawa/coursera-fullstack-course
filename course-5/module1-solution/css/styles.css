@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: -.025em;
+  font-size: 16px;
+}
+
+
+/** MAIN CONTENT **/
+#main-content {
+  margin-bottom: 30px;
+}
+#inner-container {
+  margin: 5%;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  background: #efefef;
+}
+h1 {
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+input.lunch {
+  padding: 10px;
+  width:100%;
+  margin-bottom: 15px;
+}
+button.chk {
+  margin-bottom: 10px;
+}
+.message {
+  min-height: 100px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+input {
+  border: 1px solid #efefef;
+}
+input.red-brdr {
+  border-color: red;
+}
+input.green-brdr {
+  border-color: green;
+}
