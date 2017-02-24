@@ -21,7 +21,7 @@
               <b>NOTE:</b> this form does not consider an empty item, i.e., ', ,'' as an item towards the total count.
             </p>
             <label for="lunch">Enter your typical lunch items here:</label>
-            <input type="text" ng-model="lunch" ng-class="customStyle.borderColorClass" class="lunch" />
+            <input type="text" ng-model="lunch" ng-class="customStyle.borderColorClass" class="lunch" name="lunch" />
             <button ng-click="checkLunch();" class="btn btn-primary btn-lg chk">Check If Too Much</button>
             <p ng-class="customStyle.colorClass" class="message">
               {{message}}
