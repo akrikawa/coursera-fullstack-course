@@ -2,10 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   letter-spacing: -.025em;
   font-size: 16px;
-  background
 }
-
-
 /** MAIN CONTENT **/
 .row {
   padding: 20px;
@@ -17,10 +14,11 @@ body {
 #inner-container {
   margin: 3%;
   padding: 15px;
-  border: 1px solid #cccccc;
-  background: #efefef;
+  border: 1px solid #D0BC80;
+  background: rgb(237, 237, 237);
+  background: rgba(237, 237, 237, 0.65);
   height: auto;
-  opacity: .86; 
+  color: #322515;
 }
 #bg {
   z-index: -1;
@@ -41,40 +39,46 @@ body {
   min-height: 50%;
 }
 h1 {
-  margin-bottom: 20px;
+  margin: 0px;
   font-weight: 800;
 }
+h3 {
+  font-weight: 800;
+}
+/** BUTTONS **/
 button {
   margin-bottom: 10px;
 }
-.btn {
-
-}
 .btn-default {
-  background-color: #76c12d;
+  background-color: #572974;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid rgba(113, 53, 150, 0.2);
+  margin-left: 6px;
 }
 .btn-default:hover {
-  background-color: #86dd32;
+  background-color: #733898;
+  color: #fff;
+    border: 1px solid rgba(113, 53, 150, 0.2);
 }
-
+/** LISTS **/
 ul li {
   padding: 5px 0;
+  margin-left: -15px;
 }
-
+/** ANIMATIONS **/
 .repeated-item.ng-enter, .repeated-item.ng-move {
   transition: all 0.5s linear;
   opacity: 0;
 }
-
 .repeated-item.ng-enter.ng-enter-active,
 .repeated-item.ng-move.ng-move-active {
   opacity: 1;
 }
-
 .repeated-item.ng-leave {
   animation: 0.5s my_animation;
 }
-
 @keyframes my_animation {
   from { opacity:1; }
   to { opacity:0; }
